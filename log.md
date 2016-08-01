@@ -1,6 +1,7 @@
 # 100 Days Of Code - Sam's Log
 
-### Day 2: July 31, Sunday
+<br>
+## Day 2: July 31, Sunday
 
 **Today's Progress**: Read up on bootstrap, jQuery, and some css libraries. Finished jQuery exercises on FreeCodeCamp. Signed up for a CodePen account!
 
@@ -8,9 +9,8 @@
 
 **Link to work:** [jQuery](https://jquery.com/download/) [bootstrapExplanation](https://www.taniarascia.com/what-is-bootstrap-and-how-do-i-use-it/)
 
-#
-#
-### Day 1: July 30, Saturday
+<br>
+## Day 1: July 30, Saturday
 
 **Today's Progress**: Finished all of the Responsive Design with Bootstrap exercises on FreeCodeCamp. Started keeping a Github log!
 
@@ -18,9 +18,9 @@
 
 **Link to work:** [Label Bootstrap Wells](https://www.freecodecamp.com/challenges/label-bootstrap-wells)
 
-#
-#
-### Day 0: July 29, Friday
+
+<br>
+## Day 0: July 29, Friday
 
 **Today's Progress**: Finished all of the HTML/CSS exercises on FreeCodeCamp. Finished reading A Book Apart: HTML5 for Web Designers 
 
