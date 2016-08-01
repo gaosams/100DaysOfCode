@@ -1,0 +1,29 @@
+# 100 Days Of Code - Sam's Log
+
+### Day 2: July 31, Sunday
+
+**Today's Progress**: Read up on bootstrap, jQuery, and some css libraries. Finished jQuery exercises on FreeCodeCamp. Signed up for a CodePen account!
+
+**Thoughts:** Difficult to start coding today with the number of things I wanted to look up. Learned that uncompressed files are good during development/debugging, compressed file good for production: saves bandwidth and improves performance. I included the link to a bootstrap article I found that was pretty helpful~ Though, I learned some jQuery functions, I'm left wondering of effective use cases for most of these... I'll look up more about jQuery soon to see how you might integrate them with user interactions. I'll be starting a project tomorrow! HORRAY!
+
+**Link to work:** [jQuery](https://jquery.com/download/) [bootstrapExplanation](https://www.taniarascia.com/what-is-bootstrap-and-how-do-i-use-it/)
+
+
+
+### Day 1: July 30, Saturday
+
+**Today's Progress**: Finished all of the Responsive Design with Bootstrap exercises on FreeCodeCamp. Started keeping a Github log!
+
+**Thoughts:** I learned a bit about Bootstrap today. I still dont understand how to use the files downloaded from Bootstrap. Will need to figure that out later. Biggest takeaway seems to be the grid system. Will read more on it before starting jQuery.
+
+**Link to work:** [Label Bootstrap Wells](https://www.freecodecamp.com/challenges/label-bootstrap-wells)
+
+
+
+### Day 0: July 29, Friday
+
+**Today's Progress**: Finished all of the HTML/CSS exercises on FreeCodeCamp. Finished reading A Book Apart: HTML5 for Web Designers 
+
+**Thoughts:** Picking up little tid bits about HTML/CSS that I didn't know about. Good review of html/css content on the first day. Feeling pretty productive and cant wait to start on Responsive Design with Bootstrap tomorrow. Woot! Stoked because I know nothing about Bootstrap aside from comments people have made in passing.
+
+**Link to work:** [Override All Other Styles by using Important](https://www.freecodecamp.com/challenges/override-all-other-styles-by-using-important)
