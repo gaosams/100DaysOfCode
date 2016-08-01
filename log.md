@@ -4,7 +4,7 @@
 
 **Today's Progress**: Read up on bootstrap, jQuery, and some css libraries. Finished jQuery exercises on FreeCodeCamp. Signed up for a CodePen account!
 
-**Thoughts:** Difficult to start coding today with the number of things I wanted to look up. Learned that uncompressed files are good during development/debugging, compressed file good for production: saves bandwidth and improves performance. I included the link to a bootstrap article I found that was pretty helpful~ Though, I learned some jQuery functions, I'm left wondering of effective use cases for most of these... I'll look up more about jQuery soon to see how you might integrate them with user interactions. I'll be starting a project tomorrow! HORRAY!
+**Thoughts:** Difficult to start coding today with the number of things I wanted to look up. Learned that uncompressed files are good during development/debugging, compressed file good for production: saves bandwidth and improves performance. I included the link to a bootstrap article I found that was pretty helpful~ Though, I learned some jQuery functions, I'm left wondering of effective use cases for most of these... I'll look up more about jQuery soon to see how you might integrate them with user interactions. I'll be starting a project tomorrow! HORRAY! (might postpone to learn more about github)
 
 **Link to work:** [jQuery](https://jquery.com/download/) [bootstrapExplanation](https://www.taniarascia.com/what-is-bootstrap-and-how-do-i-use-it/)
 
