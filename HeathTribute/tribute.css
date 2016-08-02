@@ -1,4 +1,14 @@
 .container{
 	padding-top: 100px;
-	margin-top: 75px;
+	margin-top: 50px;
+}
+
+.movie{
+	padding: 5% 0px 5% 0px;
+	width: 100%;
+
+}
+
+.well{
+	background-color: #bbb;
 }
