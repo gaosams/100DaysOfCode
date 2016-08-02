@@ -1,5 +1,18 @@
 # 100 Days Of Code - Sam's Log
 
+
+
+<br>
+## Day 3: August 1, Monday
+
+**Today's Progress**: Began coding tribute page for Heath Ledger. Messed around with different formatting. 
+
+**Thoughts:** Spent a lot of time getting sucked into the interesting life of Heath Ledger instead of coding today. First time using hte bootstrap grid system, and it is super useful. I've looked at source code in the past and didn't understand why there were so many div's and whatnot but it makes sense now. Hopefully will finish the tribute page tomorrow or the day after and start working on my portfolio page. 
+
+**Link to work:** [Heath Ledger's Tribute Page](HeathTribute/)
+
+
+
 <br>
 ## Day 2: July 31, Sunday
 
@@ -8,6 +21,8 @@
 **Thoughts:** Difficult to start coding today with the number of things I wanted to look up. Learned that uncompressed files are good during development/debugging, compressed file good for production: saves bandwidth and improves performance. I included the link to a bootstrap article I found that was pretty helpful~ Though, I learned some jQuery functions, I'm left wondering of effective use cases for most of these... I'll look up more about jQuery soon to see how you might integrate them with user interactions. I'll be starting a project tomorrow! HORRAY! (might postpone to learn more about github)
 
 **Link to work:** [jQuery](https://jquery.com/download/), [bootstrapExplanation](https://www.taniarascia.com/what-is-bootstrap-and-how-do-i-use-it/)
+
+
 
 <br>
 ## Day 1: July 30, Saturday
