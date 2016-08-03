@@ -1,6 +1,13 @@
 # 100 Days Of Code - Sam's Log
 
+<br>
+## Day 4: August 2, Tuesday
 
+**Today's Progress**: Messing with layout more. Learned about media queries. Decided to go simple with tribute page layout.
+
+**Thoughts:** Difficult to get started coding today. Didn't start til around 11pm. It's challenging keeping code neat and tidy when messing around with different things. It was hard keeping track of what tag or class needed margins or padding changed. I'm not a fan of bootstrap's fixed padding for its columns. Added a To-Do list to the bottom of the tribute page. I will complete this tomorrow :D 
+
+**Link to work:** [Heath Ledger's Tribute Page](HeathTribute/)
 
 <br>
 ## Day 3: August 1, Monday
