@@ -1,20 +1,53 @@
+
+body{
+	background-color: #a6a6a6;
+	font-family: "Gentium Book Basic", sans-serif;
+}
+
+h1 {
+	font-family: "Alfaslap One", cursive;
+}
+
+@media screen and (min-width: 700px){
+	h1{
+		font-size: 72px;
+	}
+}
+
 .container{
 	padding-top: 30px;
 	margin-top: 30px;
 }
 
-.movie{
-	padding: 5% 0px 5% 0px;
-	width: 200%;
+.col-xs-4{
+	padding: 0 2% 0 2%;
+}
 
+.roles{
+	padding: 50px 0px 10px 0px;
+}
+
+.role{
+	border: 3px;
+	border-style: solid;
+	border-color: #ddd;
+	border-radius: 5px;
+	width: 1000px;
 }
 
 .well{
-	background-color: #bbb;
+	background-color: #ebe8e0;
+	border: 15px;
+	border-style: groove;
+	border-color: #8a7d5c;
 
 }
 
-.main-img{
-	position: fixed;
-	width: 50%;
+.thin{
+	width: 80%;
 }
+
+.thumbnail p {
+	padding: 10px 10% 0px 10%;
+}
+
