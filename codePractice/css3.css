@@ -9,7 +9,7 @@
 }
 
 .first-paragraph {
-	border-radius: 10px;
+	border-radius: 30px;
 	/* direction, blur, color of shadow*/
 	box-shadow: 1px 1px 2px #999;
 	/* direction, blur, color of shadow*/
@@ -22,5 +22,88 @@
 
 .third-paragraph{
 	color: rgba(0,0,0,.25);
+	/* vendor prefixes*/
+	-webkit-transform: rotate(3deg);
+	-ms-transform: rotate(3deg);
+	transform: rotate(3deg);
 }
 
+
+/*ease, linear, ease-in, ease-out, ease-in-out*/
+.ease-button{
+	-webkit-transition-property: border-radius;
+	-webkit-transition-duration: 2s;
+	-webkit-transition-timing-function: ease;
+}
+
+.easeIn-button{
+	-webkit-transition-property: border-radius;
+	-webkit-transition-duration: 2s;
+	-webkit-transition-timing-function: ease-in;
+}
+
+.easeOut-button{
+	-webkit-transition-property: border-radius;
+	-webkit-transition-duration: 2s;
+	-webkit-transition-timing-function: ease-out;
+}
+
+.easeInOut-button{
+	-webkit-transition-property: border-radius;
+	-webkit-transition-duration: 2s;
+	-webkit-transition-timing-function: ease-in-out;
+}
+
+.linear-button{
+	-webkit-transition-property: border-radius;
+	-webkit-transition-duration: 2s;
+	-webkit-transition-timing-function: linear;
+}
+
+.border-button{
+	-webkit-transition-property: border-radius;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: ease;
+}
+
+.roundedEdges:hover{
+	border-radius: 40px;
+}
+
+.fade-button{
+	-webkit-transition-property: background;
+	-webkit-transition-duration: .3s;
+	-webkit-transition-timing-function: ease;
+}
+
+.green-button{
+	margin: 50px 10px;
+	padding: 10px 20px;
+	background: #9c3;
+}
+
+.green-button:hover{
+	background: #690;
+}
+
+a{
+	color: #690;
+}
+
+a:hover{
+	color: #9c3;
+	text-decoration: none;
+}
+
+/* multiple background images. not showing up...*/
+body{
+	background: url(http://unisci24.com/data_images/wlls/11/209112-circus.jpg)
+				no repeat top left,
+
+				url(http://frontrow.dmagazine.com/wp-content/uploads/2015/09/peking-dreams.jpg) 
+				repeat-x bottom left,
+
+				url(https://bartonchronicle.com/wp-content/uploads/smirkus-wire-web.jpg) 
+				repeat-y top right;
+
+}
