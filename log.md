@@ -1,6 +1,16 @@
 # 100 Days Of Code - Sam's Log
 
 <br>
+## Day 5: August 3, Wednesday
+
+**Today's Progress**: Experimenting with CSS3.
+
+**Thoughts:** Overwhelmed by the amount of properties out there that can be used to style html. Learning a bit of background as to why certain piece of code look a certain way... like why -ms- and -webkit- both need to be specified to cover a majority of browsers. 
+
+**Link to work:** [practicingCSS3](codePractice/)
+
+
+<br>
 ## Day 4: August 2, Tuesday
 
 **Today's Progress**: Messing with layout more. Learned about media queries. Decided to go simple with tribute page layout.
