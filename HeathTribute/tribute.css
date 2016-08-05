@@ -1,7 +1,24 @@
+/* whole body*/
+.container{
+	padding-top: 30px;
+	margin-top: 30px;
+}
+
+.well{
+	background-color: #ebe8e0;
+	border: 15px;
+	box-shadow: 1px 1px 2px #999;
+	border-color: #8a7d5c;
+}
+
+.thin{
+	width: 80%;
+}
 
 body{
 	background-color: #a6a6a6;
 	font-family: "Gentium Book Basic", sans-serif;
+	color: #4d2e29;
 }
 
 h1 {
@@ -14,40 +31,60 @@ h1 {
 	}
 }
 
-.container{
-	padding-top: 30px;
-	margin-top: 30px;
+section{
+	padding: 40px 0px 20px 0px;
 }
 
+/* Filmography section*/
+.leftCol{
+	text-align: right;
+}
+
+.rightCol{
+	text-align: left;
+	padding-left: 1px;
+}
+
+/* Row of Images Section*/
 .col-xs-4{
 	padding: 0 2% 0 2%;
 }
 
-.roles{
-	padding: 50px 0px 10px 0px;
-}
-
 .role{
-	border: 3px;
+/*	border: 3px;
 	border-style: solid;
 	border-color: #ddd;
-	border-radius: 5px;
-	width: 1000px;
+	border-radius: 5px;*/
+	box-shadow: 1px 2px 2px #999;
 }
 
-.well{
-	background-color: #ebe8e0;
-	border: 15px;
-	border-style: groove;
-	border-color: #8a7d5c;
-
-}
-
-.thin{
-	width: 80%;
-}
-
+/* Large Thumbnail Section*/
 .thumbnail p {
 	padding: 10px 10% 0px 10%;
+}
+
+/* Buttons Section */
+.moreInfo {
+	background: #c3baa2;
+	padding: 10px 20px;
+	margin: 5px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #999;
+	color: #6b5047;
+}
+
+.moreInfo:hover {
+	text-decoration: none;
+	color: #3d2e29;
+	background-color: #af9983;
+}
+
+a {
+	color: #3d2e29;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #6b5047;
 }
 
