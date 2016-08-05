@@ -1,5 +1,16 @@
 # 100 Days Of Code - Sam's Log
 
+
+<br>
+## Day 7: August 5, Friday
+
+**Today's Progress**: Finish Tribute Page
+
+**Thoughts:** Messed around with adding filmography that would collapse well in mobile and centered between year and movie title. Rows and columns are incredibly useful but I wondering if there is a better way that doesn't require so many divs. 
+
+**Link to work:** [Heath Ledger's Tribute Page](HeathTribute/)
+
+
 <br>
 ## Day 6: August 4, Thursday
 
