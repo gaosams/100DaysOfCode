@@ -1,6 +1,16 @@
 # 100 Days Of Code - Sam's Log
 
 <br>
+## Day 6: August 4, Thursday
+
+**Today's Progress**: Experimenting with CSS transitions. Learned about vendor prefixes 
+
+**Thoughts:** Difficult mixing classes when you want to have multiple animations. Say you have a bunch of buttons that all fade but all change border radius at different rates upon hovering. It doesn't seem like you can separate both of these into a fade-transition class and border-radius-transition class. Calls for a lot of code copy/paste. Hmm. Might look into it more tomorrow. Super stoked at how simple it is to make something as fun as a button that goes from rectangle to oval when hovering!
+
+**Link to work:** [practicingCSS3](codePractice/)
+
+
+<br>
 ## Day 5: August 3, Wednesday
 
 **Today's Progress**: Experimenting with CSS3.
