@@ -1,5 +1,14 @@
 # 100 Days Of Code - Sam's Log
 
+<br>
+## Day 8: August 6, Saturday
+
+**Today's Progress**: Learning javascript basics and setting up javascript coding environment on computer. 
+
+**Thoughts:** Mostly relearning some coding and differences in syntax on FCC. Combing through the basic javascript portion of FCC and started the basic algorithm scripting section. Takes a while to get through the content but I need to remember that these baby steps will build up a nice foundation for projects in the future. I plan to start the portfolio project on FCC either tomorrow or the day after! I asked a friend about node.js and got some resources to look into. I'll be experimenting with chrome inspector and whatnot. It feels good to be confused about content. It means more learning :) 
+
+**Link to work:** [Manipulate Arrays on FCC](https://www.freecodecamp.com/challenges/manipulate-arrays-with-unshift)
+
 
 <br>
 ## Day 7: August 5, Friday
