@@ -1,6 +1,16 @@
 # 100 Days Of Code - Sam's Log
 
 <br>
+## Day 9: August 7, Sunday
+
+**Today's Progress**: More javascript basics and algorithm basics. 
+
+**Thoughts:** Reintroduced to functions, booleans, conditionals, and comparisons; Had a busy day purging my closet instead of coding. Will catch up tomorrow. 
+
+**Link to work:** [Factorialize Number on FCC](https://www.freecodecamp.com/challenges/factorialize-a-number)
+
+
+<br>
 ## Day 8: August 6, Saturday
 
 **Today's Progress**: Learning javascript basics and setting up javascript coding environment on computer. 
