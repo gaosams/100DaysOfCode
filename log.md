@@ -1,6 +1,17 @@
 # 100 Days Of Code - Sam's Log
 
 <br>
+## Day 10: August 8, Monday
+
+**Today's Progress**: Switch Statements and Objects in javascript.
+
+**Thoughts:** Got stuck on syntax for basic algorithm to check for palindrome. When googling, there was i, g and other notation i didn't understand so I tried to storm through FCC lessons today to learn more syntax. Difficult to remember the different ways of accessing object properties! I'll have to practice more to get the hang of it. Seems like you have to use bracket notation if you are accessing the object property through another variable, and you cannot print something like: testObj["an entree"] without assigning it to a variable and printing the variable. 
+
+**Link to work:** [Accessing Object Properties on FCC](https://www.freecodecamp.com/challenges/accessing-objects-properties-with-variables), [Palindromes on FCC](https://www.freecodecamp.com/challenges/check-for-palindromes)
+
+
+
+<br>
 ## Day 9: August 7, Sunday
 
 **Today's Progress**: More javascript basics and algorithm basics. 
@@ -8,6 +19,7 @@
 **Thoughts:** Reintroduced to functions, booleans, conditionals, and comparisons; Had a busy day purging my closet instead of coding. Will catch up tomorrow. 
 
 **Link to work:** [Factorialize Number on FCC](https://www.freecodecamp.com/challenges/factorialize-a-number)
+
 
 
 <br>
@@ -20,6 +32,7 @@
 **Link to work:** [Manipulate Arrays on FCC](https://www.freecodecamp.com/challenges/manipulate-arrays-with-unshift)
 
 
+
 <br>
 ## Day 7: August 5, Friday
 
@@ -28,6 +41,7 @@
 **Thoughts:** Messed around with adding filmography that would collapse well in mobile and centered between year and movie title. Rows and columns are incredibly useful but I wondering if there is a better way that doesn't require so many divs. 
 
 **Link to work:** [Heath Ledger's Tribute Page](HeathTribute/)
+
 
 
 <br>
@@ -40,6 +54,7 @@
 **Link to work:** [practicingCSS3](codePractice/)
 
 
+
 <br>
 ## Day 5: August 3, Wednesday
 
@@ -50,6 +65,7 @@
 **Link to work:** [practicingCSS3](codePractice/)
 
 
+
 <br>
 ## Day 4: August 2, Tuesday
 
@@ -58,6 +74,8 @@
 **Thoughts:** Difficult to get started coding today. Didn't start til around 11pm. It's challenging keeping code neat and tidy when messing around with different things. It was hard keeping track of what tag or class needed margins or padding changed. I'm not a fan of bootstrap's fixed padding for its columns. Added a To-Do list to the bottom of the tribute page. I will complete this tomorrow :D 
 
 **Link to work:** [Heath Ledger's Tribute Page](HeathTribute/)
+
+
 
 <br>
 ## Day 3: August 1, Monday
@@ -89,6 +107,7 @@
 **Thoughts:** I learned a bit about Bootstrap today. I still dont understand how to use the files downloaded from Bootstrap. Will need to figure that out later. Biggest takeaway seems to be the grid system. Will read more on it before starting jQuery.
 
 **Link to work:** [Label Bootstrap Wells](https://www.freecodecamp.com/challenges/label-bootstrap-wells)
+
 
 
 <br>
