@@ -1,4 +1,4 @@
-/* whole body*/
+/*body*/
 .container{
 	padding-top: 30px;
 	margin-top: 30px;
@@ -22,12 +22,12 @@ body{
 }
 
 h1 {
-	font-family: "Alfaslap One", cursive;
+	font-family: "Niconne", cursive;
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 600px){
 	h1{
-		font-size: 72px;
+		font-size: 80px;
 	}
 }
 
