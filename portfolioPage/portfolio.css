@@ -1,0 +1,40 @@
+i {
+	color: #777;
+	-webkit-transition-property: color;
+	-webkit-transition-duration: .5s;
+	-webkit-transition-timing-function: ease;
+}
+
+i:hover {
+	color: black;
+}
+
+footer {
+	padding-top: -10px;
+	padding-bottom: 30px;
+}
+
+.portfolio {
+	padding: 20px;
+	margin-bottom: 1000px;
+}
+
+.project {
+	width: 95%;
+	padding: 7% 0px;
+}
+
+.me {
+	border-radius: 50%;
+	width: 30%;
+}
+
+.row {
+	display: block;
+	margin: auto;
+	width: 40%;
+}
+
+.media-icon {
+	padding: 0px 40px;
+}
