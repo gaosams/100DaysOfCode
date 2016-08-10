@@ -1,6 +1,17 @@
 # 100 Days Of Code - Sam's Log
 
 <br>
+## Day 11: August 9, Tuesday
+
+**Today's Progress**: Regular Expressions. Completed palindromes using regular expressions! Lots of other basic algorithms scripting. Made a forum post on FCC.
+
+**Thoughts:**  Regular expressions are super useful! Pretty confusing stuff. When do you use /\d/ as opposed to /\d+/? I'll be looking into the syntax tomorrow! Algorithms are super fun. I just rediscovered that the forum exists to share projects for feedback so I posted a link to my tribute page for feedback. awesome. Hoping to start on portfolio page coding and playing around with using chrome to test javascript code. 
+
+**Link to work:** [Palindromes on FCC](https://www.freecodecamp.com/challenges/check-for-palindromes#?solution=function%20palindrome(str)%20%7B%0A%20%20%2F%2F%20make%20string%20lowercase%0A%20%20var%20strLowercase%20%3D%20str.toLowerCase()%3B%0A%20%20%2F%2F%20remove%20punctuation%20spaces%20and%20symbols%20from%20string%0A%20%20var%20strAlphabet%20%3D%20strLowercase.replace(%2F%5B%5Ea-z0-9%5D%2Fg%2C%22%22)%3B%0A%20%20%2F%2F%20compare%20first%20and%20last%20letter%20and%20remove%20them%20until%20string%20length%20%3C%3D1%20%0A%20%20while%20(strAlphabet.length%3E1)%20%7B%0A%20%20%20%20if%20(strAlphabet.charAt(0)%3D%3D%3DstrAlphabet.charAt(strAlphabet.length-1))%20%7B%0A%20%20%20%20%20%20strAlphabet%20%3D%20strAlphabet.substring(1%2C%20strAlphabet.length-1)%3B%0A%20%20%20%20%7D%20else%20%7Breturn%20false%3B%7D%0A%20%20%7D%0A%20%20return%20true%3B%0A%7D%0A%0A%0A%0Apalindrome(%22eye%22)%3B%0A), [Regular Expressions on FCC](https://www.freecodecamp.com/challenges/sift-through-text-with-regular-expressions), [Regular Expression Cheatsheet!](https://www.debuggex.com/cheatsheet/regex/javascript)
+
+
+
+<br>
 ## Day 10: August 8, Monday
 
 **Today's Progress**: Switch Statements and Objects in javascript.
