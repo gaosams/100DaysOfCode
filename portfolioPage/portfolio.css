@@ -1,22 +1,25 @@
-i {
-	color: #777;
-	-webkit-transition-property: color;
-	-webkit-transition-duration: .5s;
-	-webkit-transition-timing-function: ease;
+
+/* NAVIGATION */
+
+.navbarColor {
+	background-color: #7291d6;
 }
 
-i:hover {
-	color: black;
+.icon-bar {
+	background-color: white;
 }
 
-footer {
-	padding-top: -10px;
-	padding-bottom: 30px;
-}
+/* END NAVIGATION */
+/* HEADER */
 
-.portfolio {
-	padding: 20px;
-	margin-bottom: 1000px;
+header {
+	margin-top: 50px;
+}
+/* END HEADER */
+/* PORTFOLIO */
+
+#portfolio {
+	padding-top: 50px;
 }
 
 .project {
@@ -24,17 +27,77 @@ footer {
 	padding: 7% 0px;
 }
 
+/* END PORTFOLIO */
+/* ABOUT ME */
+
 .me {
 	border-radius: 50%;
 	width: 30%;
 }
 
-.row {
+#aboutMe {
+	padding: 100px 200px 0px 200px;
+	margin-top: 40px;
+}
+
+/* END ABOUT ME */
+/* FOOTER */
+
+footer {
+	padding-top: -10px;
+	float: center;
 	display: block;
-	margin: auto;
-	width: 40%;
+	text-align: center;
+}
+
+.icon-border{
+	padding: 10px;
+	border-radius: 50%;
+	background-color: #777;
+}
+
+.fa-linkedin {
+	padding: 10px 13px;
+}
+
+.fa-github-alt {
+	padding: 10px 12px;
+}
+
+
+
+i {
+	color: white;
+	-webkit-transition-property: color;
+	-webkit-transition-duration: .5s;
+	-webkit-transition-timing-function: linear;
+	-webkit-transition-property: background-color;
+	-webkit-transition-duration: .5s;
+	-webkit-transition-timing-function: linear;
+}
+
+i:hover {
+	color: #7291d6;
+	background-color: transparent;
 }
 
 .media-icon {
-	padding: 0px 40px;
+	display: inline-block;
+	text-align: center;
+	float: center;
+	padding: 10px;
 }
+
+.copyright {
+	margin-top: 20px;
+	padding: 20px 0px;
+	background-color: #7291d6;
+	color: white;
+}
+
+
+
+
+
+
+

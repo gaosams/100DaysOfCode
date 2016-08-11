@@ -12,15 +12,30 @@
 
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<script src="https://use.fontawesome.com/0f2c6dc569.js"></script>
+
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 	</head>
 
 	<body>
-		<nav>
-			<ul>
-				<li> Portfolio</li>
-				<li> About Me</li>
-				<li> Contact</li>
-			</ul>
+		<nav class="navbar navbarColor navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">S</a>
+				</div>
+
+				<div class="navbar-collapse collapse" id="myNavBar">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#portfolio" class="alterText">Portfolio</a></li>
+						<li><a href="#aboutMe" class="alterText">About Me</a></li>
+						<li><a href="#">Resume</a></li>
+					</ul>	
+				</div>
+			</div>
 		</nav>
 
 		<header class="jumbotron text-center">
@@ -28,7 +43,7 @@
 			<h2> UX Designer</h2>
 		</header>
 		
-		<div class="container text-center">
+		<div class="container text-center" id="portfolio">
 			<div class="row">
 				<div class="col-sm-4">
 					<a href="#">
@@ -83,10 +98,10 @@
 
 		</div>
 
-		<div class="jumbotron">
+		<div id="aboutMe" class="jumbotron">
 			<img src="happyRainyDays.jpg" class="me center-block">
-			<div class="aboutMe container">
-				<h1>Hi</h1>
+			<div class="container">
+				<h1 class="text-center">Hi, I'm Sam!</h1>
 				<p> A am a user experience designer who thrives on hearing people's stories. As a designer, I encourage people to reflect on themselves, others, and society through physical and digital artifacts. I hope to create meaningful interactions that will allow people to grow individually and understand one another at a greater capacity. </p>
 				<p> I love thinkering, learning, and drawing. Outside of my work, you can find me dancing around the country. </p>
 				<p> I graduated from Carnegie Mellon University in May 2016 with a BFA in industrial design and human computer interaction, minor in architecture. </p>
@@ -95,21 +110,24 @@
 		</div>
 
 
-		<footer class="text-center row">
+		<footer>
 			<div class="media-icon">
 				<a href="https://www.linkedin.com/in/gaosams" target="_blank">
-					<i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+					<i class="fa fa-linkedin fa-2x icon-border" aria-hidden="true"></i>
 				</a>
 			</div>
 			<div class="media-icon">
 				<a href="https://vimeo.com/gaosams" target="_blank">
-					<i class="fa fa-vimeo-square fa-3x" aria-hidden="true"></i>
+					<i class="fa fa-vimeo fa-2x icon-border" aria-hidden="true"></i>
 				</a>
 			</div>
 			<div class="media-icon">
 				<a href="https://github.com/gaosams" target="_blank">
-					<i class="fa fa-github fa-3x" aria-hidden="true"></i>
+					<i class="fa fa-github-alt fa-2x icon-border" aria-hidden="true"></i>
 				</a>
+			</div>
+			<div class="copyright">
+				Copyright © Sam Gao 2016 • All Rights Reserved
 			</div>
 		</footer>
 	</body>
