@@ -1,5 +1,19 @@
 # 100 Days Of Code - Sam's Log
 
+
+
+
+<br>
+## Day 12: August 10, Wednesday
+
+**Today's Progress**: Started and completed basic structure for portfolio page. Completed 3 basic algorithms.
+
+**Thoughts:**  I had difficulties remembering how to make a navigation bar. There's a lot of classes to remember especially with a collapsing hamburger menu. Also had a difficult time with footer logos that linked to other social media. If not in a div the icons would display an underscore when highlighting. I still dont know why this happens but settled with putting the icons in separate divs with inline-block display so they show up on the same row. The algorithms are still relatively simple to solve at this point.
+
+**Link to work:** [Portfolio Page](/portfolioPage)
+
+
+
 <br>
 ## Day 11: August 9, Tuesday
 
