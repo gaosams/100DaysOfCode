@@ -2,6 +2,16 @@
 
 
 
+<br>
+## Day 13: August 11, Thursday
+
+**Today's Progress**: A few algorithms
+
+**Thoughts:**  Unfortunately didn't get around to coding more than a few algorithms on freeCodeCamp for an hour today. Some of these are incredibly short. I always have to code on a local text editor so I can debug or remember what certain methods will do... Will hopefully pick up again tomorrow. 
+
+**Link to work:** [Slasher on FCC](https://www.freecodecamp.com/challenges/slasher-flick)
+
+
 
 <br>
 ## Day 12: August 10, Wednesday
