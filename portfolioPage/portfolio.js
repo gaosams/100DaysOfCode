@@ -22,12 +22,10 @@ $(document).ready(function() {
 		defineTopPos();
 	})
 
-
+	//called during scroll. changes navigation bar highlight
 	function changeNavHighlight(section) {
 		$('#myNavBar>ul>li>a.active').removeClass('active');
 		$(section).addClass('active');
-		//console.log($(portfolio).hasClass('active'));
-		//console.log($(aboutMe).hasClass('active'));
 	}
 
 
@@ -48,10 +46,8 @@ $(document).ready(function() {
 	    event.preventDefault();
 	    $('html,body').animate( {
 	    	scrollTop: $(this.hash).offset().top-navHeight}, 500);
-	    //changeNavHighlight(aboutMe);
-	    //console.log(this.hash.substring(1, this.hash.length));
-	    //console.log("portfolio active ", $(portfolio).hasClass('active'));
-	    //console.log("aboutMe active ", $(aboutMe).hasClass('active'));
 	});
+
+	//hamburger
 
 });

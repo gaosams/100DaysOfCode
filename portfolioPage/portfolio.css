@@ -21,19 +21,16 @@
 	padding: 10px 15px;
 }
 
-/*#myNavBar .navText:hover{
-	color: green;
-}*/
-
 #myNavBar .navText:focus .active {
 	background-color: #647FBB;
 	color: purple;
 }
 
+/*override focus colors from bootstrap*/
 #myNavBar .navText:focus:not(.active) {
 	background-color: transparent;
 }
-
+/*override focus colors from bootstrap*/
 #myNavBar .navText:hover:not(.active){
 	background-color: transparent;
 	color: white;
@@ -58,6 +55,10 @@
 header {
 	margin-top: 50px;
 }
+
+#top {
+	background-color: #7291d6;
+}
 /* END HEADER */
 /* PORTFOLIO */
 
@@ -73,14 +74,18 @@ header {
 /* END PORTFOLIO */
 /* ABOUT ME */
 
-.me {
+.profilePic {
 	border-radius: 50%;
-	width: 30%;
+	width: 80%;
 }
 
 #aboutMe {
-	padding: 100px 200px 0px 200px;
+	padding: 100px 225px 0px 225px;
 	margin-top: 40px;
+}
+
+#aboutMe p{
+	font-size: 14px;
 }
 
 /* END ABOUT ME */

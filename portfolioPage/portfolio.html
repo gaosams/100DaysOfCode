@@ -6,27 +6,32 @@
 		<title> Sam Gao </title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- Bootstrap -->
+		<!-- CSS: Bootstrap-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- CSS: Custom -->
+		<link rel="stylesheet" type="text/css" href="portfolio.css">
 
-		<!-- Icons for social media -->
+		<!-- ICONS: for social media icons -->
 		<script src="https://use.fontawesome.com/0f2c6dc569.js"></script>
 
 		<!-- JQUERY: Google CDN -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-		<link rel="stylesheet" type="text/css" href="portfolio.css">
+		<!-- JS: Custom -->
 		<script src="portfolio.js"></script>
 
 		
 	</head>
 
 	<body>
-		<nav class="navbar navbarColor navbar-fixed-top">
+		<nav class="navbar navbarColor navbar-fixed-top" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+					<button type="button" class="navbar-toggle collapsed dropdown-content" data-toggle="collapse" data-target="#myNavBar"
+					aria-expanded="false" aria-controls="navbar">
 					<!-- hamburger lines -->
+						<!-- what does this do? -->
+						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -34,7 +39,7 @@
 					<a class="navText navbar-brand" href="">S</a>
 				</div>
 
-				<div class="navbar-collapse collapse" id="myNavBar">
+				<div id="myNavBar" class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#portfolio" class="navText">Portfolio</a></li>
 						<li><a href="#aboutMe" class="navText">About Me</a></li>
@@ -104,7 +109,7 @@
 		</div>
 
 		<div id="aboutMe" class="jumbotron">
-			<img src="happyRainyDays.jpg" class="me center-block">
+			<img src="happyRainyDays.jpg" class="profilePic center-block">
 			<div class="container">
 				<h1 class="text-center">Hi, I'm Sam!</h1>
 				<p> A am a user experience designer who thrives on hearing people's stories. As a designer, I encourage people to reflect on themselves, others, and society through physical and digital artifacts. I hope to create meaningful interactions that will allow people to grow individually and understand one another at a greater capacity. </p>
@@ -138,6 +143,10 @@
 	</body>
 
 
-
+<!-- add a circle on bottom right to scroll to top 
+	 Add Resume
+	 Pick Fonts
+	 Add Contact Form
+-->
 
 </html>
