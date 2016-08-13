@@ -4,9 +4,9 @@
 <br>
 ## Day 14: August 12, Friday
 
-**Today's Progress**: More algorithm practice and work on the website! (Posting an early update since I'll likely work past midnight.)
+**Today's Progress**: More algorithm practice. Added javascript and jQuery to portfolio page. Adjusted navigation hover colors. The navigation doesn’t expand when clicking on  hamburger. need to fix this bug...
 
-**Thoughts:** New function str.indexOf() is pretty useful. I wonder if it has the same run time as a for loop since it checks if a certain string is in a string. 
+**Thoughts:** New function str.indexOf() is pretty useful. I wonder if it has the same run time as a for loop since it checks if a certain string is in another string. On the portfolio page, I added the jQuery library. It's my first time linking javascript with html and css. It's difficult to get used to calling elements from your html file and manipulating them with conditionals... things like: make the navigation disappear when the scroll position hits 300 (or something more specifically tied to a page element). 
 
 **Link to work:** [Mutations (indexOf) on FCC](https://www.freecodecamp.com/challenges/mutations#?solution=%0Afunction%20mutation(arr)%20%7B%0A%20%20var%20lowerArr%20%3D%20%5Barr%5B0%5D.toLowerCase()%2C%20arr%5B1%5D.toLowerCase()%5D%3B%0A%20%20%2F%2Ffor%20each%20letter%20in%20the%20second%20word%2C%20see%20if%20in%20first%20word%0A%20%20for%20(var%20i%3D0%3B%20i%3ClowerArr%5B1%5D.length%3B%20i%2B%2B)%20%7B%0A%20%20%20%20if%20(lowerArr%5B0%5D.indexOf(lowerArr%5B1%5D.charAt(i))%3D%3D%3D-1)%7B%0A%20%20%20%20%20%20return%20false%3B%0A%20%20%20%20%7D%0A%20%20%7D%0A%20%20return%20true%3B%0A%7D%0A%0Amutation(%5B%22hello%22%2C%20%22hey%22%5D)%3B%0A), [Portfolio Page](/portfolioPage)
 
