@@ -8,13 +8,13 @@ $(document).ready(function() {
 	var resume = 'a[href="#resume"]';
 
 	// position of each section
-	var navHeight = 100;
+	var navHeight = 60;
 	var portfolioTop = $('#portfolio').position().top - navHeight;
 	var aboutMeTop = $('#aboutMe').position().top - navHeight;
 
 	function defineTopPos() {
-		var portfolioTop = $('#portfolio').position().top;
-		var aboutMeTop = $('#aboutMe').position().top;
+		var portfolioTop = $('#portfolio').position().top - navHeight;
+		var aboutMeTop = $('#aboutMe').position().top - navHeight;
 	}
 
 	//when window resized, run code
@@ -26,12 +26,13 @@ $(document).ready(function() {
 	function changeNavHighlight(section) {
 		$('#myNavBar>ul>li>a.active').removeClass('active');
 		$(section).addClass('active');
+		//console.log($(portfolio).hasClass('active'));
+		//console.log($(aboutMe).hasClass('active'));
 	}
 
 
 	//on scroll, run code
 	$(window).scroll(function() {
-		console.log($(this).scrollTop());
 		if ($(this).scrollTop() < portfolioTop) {
 			$('#myNavBar>ul>li>a.active').removeClass('active');
 		} else if ($(this).scrollTop() >= portfolioTop && 
@@ -40,9 +41,17 @@ $(document).ready(function() {
 		} else if ($(this).scrollTop() >= aboutMeTop) {
 			changeNavHighlight(aboutMe);
 		}
+	});
 
-	})
-
-	$("#aboutMe").css("color", "green");
+	//smooth scroll
+	$('a[href*="#"]').on('click', function(event){     
+	    event.preventDefault();
+	    $('html,body').animate( {
+	    	scrollTop: $(this.hash).offset().top-navHeight}, 500);
+	    //changeNavHighlight(aboutMe);
+	    //console.log(this.hash.substring(1, this.hash.length));
+	    //console.log("portfolio active ", $(portfolio).hasClass('active'));
+	    //console.log("aboutMe active ", $(aboutMe).hasClass('active'));
+	});
 
 });
