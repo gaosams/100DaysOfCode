@@ -1,8 +1,14 @@
 
 /* NAVIGATION */
 
+.navbar {
+	padding: 0px 0px;
+	margin: 0px;
+}
+
 .navbarColor {
 	background-color: #7291d6;
+	padding: 10px 0px;
 }
 
 
@@ -12,14 +18,22 @@
 }
 
 .alterText {
-	color: white;
+	color: #DCE4F5;
 }
 
 .alterText:hover {
 	/*navigation text colors*/
 	background-color: #647FBB !important;
-	color: yellow !important;
+	color: white;
+	/*color: #337ab7 !important;*/
 	/*color: #A7BAE5 !important;*/
+	/*337ab7*/
+}
+
+.active {
+	background-color: #647FBB;
+	color: white;
+	padding: 0px;
 }
 
 .navbar-brand {
