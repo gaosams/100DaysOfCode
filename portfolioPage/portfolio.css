@@ -5,8 +5,29 @@
 	background-color: #7291d6;
 }
 
+
 .icon-bar {
-	background-color: white;
+	/*hamburger*/
+	background-color: white; 
+}
+
+.alterText {
+	color: white;
+}
+
+.alterText:hover {
+	/*navigation text colors*/
+	background-color: #647FBB !important;
+	color: yellow !important;
+	/*color: #A7BAE5 !important;*/
+}
+
+.navbar-brand {
+	color: white;
+}
+
+.navbar-brand:hover {
+	color: white;
 }
 
 /* END NAVIGATION */
