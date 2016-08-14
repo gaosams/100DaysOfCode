@@ -1,6 +1,19 @@
 # 100 Days Of Code - Sam's Log
 
 
+
+<br>
+## Day 15: August 13, Saturday
+
+**Today's Progress**: Worked on website. Added navigation bar highlighting upon scrolling and smooth scrolling animation. Tried finding why hamburger menu doesn't work. 
+
+**Thoughts:** It's pretty difficult making a few things happen without running into other small fixes in code. I added smooth scrolling javascript and then a bug appeared where elements in focus stayed highlighted so i needed to adjust the css for that. I used !important to override certain css but then it seems that if you include an id and class (example: #myNavbar .navbarText), it will override other classes. Awesome. 
+
+**Link to work:** [Portfolio Page](/portfolioPage)
+
+
+
+
 <br>
 ## Day 14: August 12, Friday
 
