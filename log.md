@@ -1,5 +1,21 @@
 # 100 Days Of Code - Sam's Log
 
+<br>
+## Day 16: August 14, Sunday
+
+**Today's Progress**: More practice with javascript objects. More algorithm scripting with the Filter javascript method.
+
+**Thoughts:** Interesting how the filter method doesn't feed all variables into an external function. In the Seek and Destroy algorithm on FCC, I realized there was a difference between:
+
+1.) return arr.filter(seek()); with the seek() function outside of the main function
+
+2.) arr.filter(function seek(val) { insert code...});
+
+In version 1, I couldn't use variables i'd defined in the main function... but in version 2 i could. Interesting... It makes sense but why not allow the function inside a filter to take arguments? Maybe there aren't any cases you'd be using the same filter function in multiple filters? hmmmmmm
+
+**Link to work:** [Javascript Objects on FCC](https://www.freecodecamp.com/challenges/make-instances-of-objects-with-a-constructor-function), 
+[Seek and Destroy Algorithm](https://www.freecodecamp.com/challenges/seek-and-destroy)
+
 
 
 <br>
