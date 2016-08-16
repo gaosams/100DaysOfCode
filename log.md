@@ -1,6 +1,17 @@
 # 100 Days Of Code - Sam's Log
 
 <br>
+## Day 17: August 15, Monday
+
+**Today's Progress**: differentiating push and concat. Sorting in javascript 
+
+**Thoughts:** Sorting is super useful in javascript horray! I ran into issues with the push method for a while because it returns the new array's length as opposed to what the new array is. The original array transforms. 
+
+**Link to work:** [Where do I Belong?](https://www.freecodecamp.com/challenges/where-do-i-belong)
+
+
+
+<br>
 ## Day 16: August 14, Sunday
 
 **Today's Progress**: More practice with javascript objects. More algorithm scripting with the Filter javascript method.
