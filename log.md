@@ -3,11 +3,13 @@
 <br>
 ## Day 17: August 15, Monday
 
-**Today's Progress**: differentiating push and concat. Sorting in javascript 
+**Today's Progress**: differentiating push and concat. Sorting and characterCodes. Finished Basic Algorithm section of FCC. 
 
-**Thoughts:** Sorting is super useful in javascript horray! I ran into issues with the push method for a while because it returns the new array's length as opposed to what the new array is. The original array transforms. 
+**Thoughts:** Sorting is super useful in javascript horray! I ran into issues with the push method for a while because it returns the new array's length as opposed to what the new array is. The original array transforms! With these algorithms, I feel the longest amount of time is figuring out syntax as opposed to thinking through the logic. Though sometimes the logic is an interesting challenge. Definitely made the last algorithm (Caesars Cipher) more difficult than it needed to be. Thought i needed to use % but everything was possible with simple addition and subtraction! :D Excited to start coding intermediate algorithm scripts eventually. I still need to catch up on Object Oriented and Functional Programming exercises on FCC and continue working on the Portfolio Page. After those two I'll tackle the JSON APIs and Ajax exercises on FCC. Sweet. All foreign terminology. 
 
-**Link to work:** [Where do I Belong?](https://www.freecodecamp.com/challenges/where-do-i-belong)
+Reflecting on the third week into #100DaysOfCode... definitely feel a bit burnt out from coding. It's often the last thing I tackle for the day. If I work on the Portfolio Page, I usually want to set aside a large portion of time to noodle through completing something on the page, which I haven't had these last few days. It takes a bit to get into the mindset of thinking and reading documentation for long periods of time. 
+
+**Link to work:** [Where do I Belong?](https://www.freecodecamp.com/challenges/where-do-i-belong), [Caesars Cipher on FCC](https://www.freecodecamp.com/challenges/caesars-cipher#?solution=%0Afunction%20rot13(str)%20%7B%20%2F%2F%20LBH%20QVQ%20VG!%0A%20%20var%20newStr%20%3D%20%22%22%3B%0A%20%20var%20asciiA%20%3D%2065%3B%0A%20%20var%20cipherShift%20%3D%2013%3B%0A%20%20var%20alphabet%20%3D%2026%3B%0A%20%20var%20newCode%20%3D%200%3B%0A%20%20for%20(i%3D0%3B%20i%3Cstr.length%3B%20i%2B%2B)%20%7B%0A%20%20%09if%20(str.charCodeAt(i)%3E90%20%7C%7C%20str.charCodeAt(i)%3CasciiA)%20%7B%0A%20%20%09%09newCode%20%3D%20str.charCodeAt(i)%3B%0A%20%20%09%7D%20else%20if%20((str.charCodeAt(i)-cipherShift)%3CasciiA)%20%7B%0A%20%20%09%09newCode%20%3D%20(str.charCodeAt(i)-cipherShift%2Balphabet)%3B%0A%20%20%09%7D%20else%20%7B%0A%20%20%09%09newCode%20%3D%20(str.charCodeAt(i)-cipherShift)%3B%0A%20%20%09%7D%0A%20%20%09newStr%2B%3DString.fromCharCode(newCode)%3B%0A%20%20%7D%0A%20%20return%20newStr%3B%0A%7D%0A%0A%2F%2F%20Change%20the%20inputs%20below%20to%20test%0Arot13(%22SERR%20PBQR%20PNZC%22)%3B%0A)
 
 
 
