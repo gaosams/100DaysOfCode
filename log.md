@@ -1,6 +1,17 @@
 # 100 Days Of Code - Sam's Log
 
 <br>
+## Day 18: August 16, Tuesday
+
+**Today's Progress**: finished object oriented and functional programming exercises on FCC. 
+
+**Thoughts:** Learned about storing functions within an object if you need/want to manipulate a private variable. (ie. the 'speed' of a Car object. Also some practice with other methods such as filter and reduce! Would have been useful to try this exercise before solving the algorithm a few days ago, but I definitely feel like i learned more struggling through methods than learning them first. It makes sense that you would keep functions internal to manipulate private variables when look at objects. 
+
+**Link to work:** [Iterate over Arrays with Map on FCC](https://www.freecodecamp.com/challenges/iterate-over-arrays-with-map)
+
+
+
+<br>
 ## Day 17: August 15, Monday
 
 **Today's Progress**: differentiating push and concat. Sorting and characterCodes. Finished Basic Algorithm section of FCC. 
