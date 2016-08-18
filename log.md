@@ -1,5 +1,17 @@
 # 100 Days Of Code - Sam's Log
 
+
+<br>
+## Day 19: August 17, Wednesday
+
+**Today's Progress**: Contact Form on Portfolio Page.
+
+**Thoughts:** Got stumped trying to work with php but decided that would be a challenge for another day. I styled the contact form on my portfolio page and I'm pretty happy with it! I got a change to work more with css transitions and javascript. I'm getting used to manipulating css with javascript/jquery. 
+
+**Link to work:** [Portfolio Page](/portfolioPage)
+
+
+
 <br>
 ## Day 18: August 16, Tuesday
 
