@@ -53,7 +53,13 @@
 /* HEADER */
 
 header {
-	margin-top: 50px;
+	margin-top: 40px;
+}
+
+h1 {
+	font-family: "Play";
+	/*Montserrat, Inconsolata, Muli, Oxygen, 
+	Abel, Quicksand, Questrial, Play*/
 }
 
 #top {
