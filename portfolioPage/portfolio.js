@@ -48,6 +48,43 @@ $(document).ready(function() {
 	    	scrollTop: $(this.hash).offset().top-navHeight}, 500);
 	});
 
+
+
+	//form: when clicking in or out of an input field
+	$('.overlabel').each(function () {
+	    var field = $(this).find('[type=text], [type=file], [type=email], [type=password], textarea');
+	    var span = $(this).find('> span');
+	    var input = $(this).find('> input');
+	    
+
+	    //when clicking OUT of field
+	    var onBlur = function () {
+	    	//if something in input field upon clicking out
+	        if ($.trim(field.val()) !== '') {
+	        	//change color
+	            input.css("color", "#7291d6");
+	            //check to see if valid input
+	        }
+	    };
+
+	    //when clicking INTO a field...
+	    field.focus(function () {
+	    	input.css("color", "black");
+	    }).blur(onBlur);
+	    onBlur();
+
+
+	    //when typing
+	    $(this).on('input', function (){
+			if ($.trim(field.val()) == '') {
+	    		$(span).removeClass("infoEntered");
+	    	} else {
+	    		$(span).addClass("infoEntered");
+	    	}
+	    });
+	});
+
+
 	//hamburger
 
 });

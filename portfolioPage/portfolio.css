@@ -89,6 +89,63 @@ header {
 }
 
 /* END ABOUT ME */
+/* CONTACT ME */
+
+.overlabel {
+	border: 0.1em solid;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+
+	color: #ccc;
+	position: relative;
+	display: block;
+	margin: 30px 50px 0px 30px;
+	vertical-align: middle;
+	min-height: 2.2em;
+}
+
+.overlabel input, .overlabel textarea {
+	text-align: left;
+	font-size: 1em;
+	line-height: 2em;
+	padding: 0 0.5em;
+	margin: 0;
+	-webkit-appearance: none; /* prevent ios styling */
+	width: 100%;
+	border: none; 
+	outline: 0; /*gets rid of blue glow when in focus*/
+	font-weight: 200;
+	color: black;
+}
+
+.overlabel input {
+}
+
+.overlabel span {
+	color: transparent;
+	padding: 0 0.5em;
+	bottom: 30px;
+	position: absolute;
+	top: 5px;
+	-webkit-transition-property: color top;
+	-webkit-transition-duration: .3s;
+	-webkit-transition-timing-function: ease-out;
+}
+
+.overlabel .infoEntered {
+	color: #7291d6;
+	padding: 0 0.5em;
+	position: absolute;
+	top: -20px;
+	-webkit-transition-property: color top;
+	-webkit-transition-duration: .3s;
+	-webkit-transition-timing-function: ease-in;
+
+}
+
+
+/* END CONTACT ME */
 /* FOOTER */
 
 footer {
