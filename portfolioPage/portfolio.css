@@ -290,8 +290,29 @@ i:hover {
 	color: white;
 }
 
+/*END FOOTER*/
+/*BACK TO TOP BUTTON*/
+.back-to-top {
+	background: none;
+	margin: 0;
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	width: 41px;
+	height: 41px;
+	z-index: 100;
+	background-color: #7291d6;
+	border-radius: 20%;
+}
+ 
 
-
+.back-to-top i {
+  font-size: 1.5em;
+  padding-top: 5px;
+  padding-left: 10px;
+  color: white;
+ 
+}
 
 
 
