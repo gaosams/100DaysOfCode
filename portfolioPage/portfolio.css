@@ -6,6 +6,13 @@
 	margin: 0px;
 }*/
 
+nav {
+	-webkit- transition-property: color;
+	-webkit- transition-duration: .3s;
+	-webkit- transition-timing-function: ease;
+	display: block;
+}
+
 .navbarColor {
 	background-color: #7291d6;
 	padding-top: 10px;
@@ -49,22 +56,40 @@
 	background-color: transparent;
 }
 
-/* END NAVIGATION */
-/* HEADER */
-
-header {
-	margin-top: 40px;
+.invisible {
+	display: none;
 }
 
-h1 {
-	font-family: "Play";
-	/*Montserrat, Inconsolata, Muli, Oxygen, 
-	Abel, Quicksand, Questrial, Play*/
+/* END NAVIGATION */
+/* HEADER */
+html, body { 
+	margin: 0;
+	padding: 0;
+	height: 100%;
 }
 
 #top {
 	background-color: #7291d6;
+	height: 100%;
 }
+
+.headerText {
+	margin-top: 20%;
+}
+
+header h1, header h2 {
+	font-family: "Muli";
+	color: white !important;
+	letter-spacing: .075em;
+	/*Montserrat, Inconsolata, Muli, Oxygen, 
+	Abel, Quicksand, Questrial, Play*/
+}
+
+header h2 {
+	letter-spacing: .4em;
+
+}
+
 /* END HEADER */
 /* PORTFOLIO */
 
@@ -121,7 +146,7 @@ h1 {
 /* CONTACT ME */
 
 #contact {
-	padding-top: 50px;
+	margin-top: 50px;
 }
 
 .overlabel {

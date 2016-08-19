@@ -1,6 +1,8 @@
 $(document).ready(function() {
 	// check in javascript is running
 	console.log("Javascript Running");
+	$('header>div').fadeIn(500);
+	$('header>div').removeClass('invisible');
 	
 	// for selecting navigation items
 	var portfolio = 'a[href="#portfolio"]';
@@ -30,12 +32,16 @@ $(document).ready(function() {
 	function changeNavHighlight(section) {
 		$('#myNavBar>ul>li>a.active').removeClass('active');
 		$(section).addClass('active');
+		$('nav').fadeIn(300);
+		$('nav').removeClass('invisible');
 	}
 
 
 	//on scroll, run code
 	$(window).scroll(function() {
 		if ($(this).scrollTop() < portfolioTop) {
+			// $('nav').addClass('invisible');
+			$('nav').fadeOut(200);
 			$('#myNavBar>ul>li>a.active').removeClass('active');
 		} else if ($(this).scrollTop() >= portfolioTop && 
 			$(this).scrollTop() < aboutMeTop) {
