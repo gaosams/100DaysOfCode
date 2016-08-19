@@ -1,8 +1,18 @@
 $(document).ready(function() {
 	// check in javascript is running
 	console.log("Javascript Running");
-	$('header>div').fadeIn(500);
-	$('header>div').removeClass('invisible');
+
+	$('header>div>h1').animate({opacity: 1}, 400);
+	$('header>div>h2').animate({opacity: 1}, 400);
+
+	// $('header>div>h1').animate({
+	// 	top: "+=40px",
+	// 	opacity: 1
+	// }, 400, function() {
+	// 	$('header>div>h2').animate({
+	// 		opacity: 1
+	// 	}, 700);
+	// });
 	
 	// for selecting navigation items
 	var portfolio = 'a[href="#portfolio"]';
