@@ -84,6 +84,7 @@ header div {
 
 header div h1, header div h2 {
 	position: relative;
+	font-size: 60px;
 	font-family: "Muli";
 	color: white !important;
 	letter-spacing: .075em;
@@ -92,11 +93,15 @@ header div h1, header div h2 {
 	Abel, Quicksand, Questrial, Play*/
 }
 
-header h2 {
-	position: relative;
+header div h2 {
+	font-size: 30px;
 	/*top: 40px;*/
 	letter-spacing: .4em;
+}
 
+@media (max-width: 380px){
+	header div h1 {font-size: 38px;}
+	header div h2 {font-size: 18px;}
 }
 
 /* END HEADER */

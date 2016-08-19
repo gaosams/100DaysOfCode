@@ -2,8 +2,8 @@ $(document).ready(function() {
 	// check in javascript is running
 	console.log("Javascript Running");
 
-	$('header>div>h1').animate({opacity: 1}, 400);
-	$('header>div>h2').animate({opacity: 1}, 400);
+	$('header>div>h1').animate({opacity: 1}, 1000);
+	$('header>div>h2').animate({opacity: 1}, 3000);
 
 	// $('header>div>h1').animate({
 	// 	top: "+=40px",
@@ -50,15 +50,17 @@ $(document).ready(function() {
 	//on scroll, run code
 	$(window).scroll(function() {
 		if ($(this).scrollTop() < portfolioTop) {
-			// $('nav').addClass('invisible');
 			$('nav').fadeOut(200);
 			$('#myNavBar>ul>li>a.active').removeClass('active');
+		//portfolio
 		} else if ($(this).scrollTop() >= portfolioTop && 
 			$(this).scrollTop() < aboutMeTop) {
 			changeNavHighlight(portfolio);
+		//about me
 		} else if ($(this).scrollTop() >= aboutMeTop &&
 			$(this).scrollTop() < contactTop) {
 			changeNavHighlight(aboutMe);
+		// contact
 		} else if ($(this).scrollTop() >= contactTop) {
 			changeNavHighlight(contact);
 		}
