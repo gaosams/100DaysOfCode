@@ -2,6 +2,17 @@
 
 
 <br>
+## Day 20: August 18, Thursday
+
+**Today's Progress**: Adjusted start screen to take up the whole page. Navigation bar appears after scrolling down. Added a non-functional scroll-to-top button in the bottom right corner. Also did a few exercises on JSON, API on FCC. Also found why the hamburger menu wasn't working! I'd forgotten to put in the bootstrap javascript. silly me. 
+
+**Thoughts:** There's many different ways to animate objects. Still figuring out which way is best to use or most versatile. I find myself typing up janky code and needing to clean it up so it is robust and reusable for different elements. It's a little frustrating and daunting but I'm definitely getting in a lot of practice and learning lots. 
+
+**Link to work:** [Portfolio Page](/portfolioPage)
+
+
+
+<br>
 ## Day 19: August 17, Wednesday
 
 **Today's Progress**: Contact Form on Portfolio Page.
