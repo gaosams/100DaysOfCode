@@ -1,6 +1,17 @@
 # 100 Days Of Code - Sam's Log
 
 
+
+<br>
+## Day 21: August 19, Friday
+
+**Today's Progress**: started random quote machine. started intermediate algorithm scripting.
+
+**Thoughts:** some scripting methods seems more complicated to set up and use than just using a for loop. Started looping for api's of fun quotes to generate. Will be the first time I link api with code. exciting. 
+
+**Link to work:** [Sum within Range on FCC](https://www.freecodecamp.com/challenges/sum-all-numbers-in-a-range#?solution=%0Afunction%20sumAll(arr)%20%7B%0A%20%20var%20min%20%3D%20Math.min(arr%5B0%5D%2C%20arr%5B1%5D)%3B%0A%20%20var%20max%20%3D%20Math.max(arr%5B0%5D%2C%20arr%5B1%5D)%3B%0A%20%20var%20total%20%3D%200%3B%0A%20%20%0A%20%20for%20(i%3Dmin%3B%20i%3C%3Dmax%3B%20i%2B%2B)%20%7B%0A%20%20%20%20total%20%2B%3D%20i%3B%0A%20%20%7D%0A%20%20%0A%20%20return%20total%3B%0A%7D%0A%0AsumAll(%5B1%2C%204%5D)%3B%0A%0A%2F*%0AIf%20using%20reduce%2C%20i%20would%20have%20to%20make%20another%20list%20of%20the%20range%20requiring%20a%20for%20loop%20and%20a%20reduce...%20seem%27s%20like%20more%20lines%20of%20code%20to%20do%20the%20same%20thing%20the%20code%20above%20does.%20I%27m%20not%20sure%20which%20way%20of%20coding%20is%20stylistically%20better...%20hmmm...%20%0A*%2F%0A)
+
+
 <br>
 ## Day 20: August 18, Thursday
 
