@@ -1,6 +1,16 @@
 # 100 Days Of Code - Sam's Log
 
 
+<br>
+## Day 23: August 21, Sunday
+
+**Today's Progress**: Solved algorithm that takes in two arrays and returns single array with all unique items between the two.
+
+**Thoughts:** Solved the algorithm pretty quickly but I'd used filter inside a for loop. Good thing there was a warning saying it was non-optimal! I reworked the algorithm twice. Once filtering twice to get unique items for each and then combining them. The final time, I only used one filter function. This algorithm was good practice for understanding how to use filter in lieu of a for loop :) 
+
+**Link to work:** [Diff Two Arrays on FCC](https://www.freecodecamp.com/challenges/diff-two-arrays#?solution=function%20diffArray(arr1%2C%20arr2)%20%7B%0A%20%20var%20uniqueInArr2%20%3D%20arr2%3B%0A%20%20var%20uniqueInArr1%20%3D%20arr1.filter(function(val)%20%7B%0A%20%20%09%2F%2Fif%20value%20in%20arr1%20is%20not%20in%20arr2%2C%20keep%20it%0A%20%20%09if%20(arr2.indexOf(val)%20%3D%3D%20-1)%20%7B%0A%20%20%09%09return%20val%3B%0A%20%20%20%20%2F%2Fotherwise%20remove%20from%20uniqueInArr2%0A%20%20%09%7D%20else%20%7B%0A%20%20%09%09var%20i%20%3D%20uniqueInArr2.indexOf(val)%3B%0A%20%20%09%09var%20last%20%3D%20uniqueInArr2.length%3B%0A%20%20%09%09uniqueInArr2%20%3D%20uniqueInArr2.slice(0%2Ci).concat(uniqueInArr2.slice(i%2B1%2Clast))%3B%0A%20%20%09%7D%0A%20%20%7D)%3B%0A%0A%20%20var%20newArr%20%3D%20uniqueInArr2.concat(uniqueInArr1)%3B%0A%20%20return%20newArr%3B%0A%7D%0A%0AdiffArray(%5B1%2C%202%2C%203%2C%205%5D%2C%20%5B1%2C%202%2C%203%2C%204%2C%205%5D)%3B%0A)
+
+
 
 <br>
 ## Day 22: August 20, Saturday
