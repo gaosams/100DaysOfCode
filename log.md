@@ -3,6 +3,16 @@
 
 
 <br>
+## Day 22: August 20, Saturday
+
+**Today's Progress**: Reading up on how to use API and using codeacademy.
+
+**Thoughts:** Lots of online resources. Codeacademy is informative when stuck on topics. There's a lot of explanation which is nice. Free code camp does a good job pacing you through content in a hands on way though. Still a bit stuck on how to work with APIs... Chrome browser says this: "XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience" ...so it seems that codeacademy's content is a little bit outdated? Lots of confusion surrounding all this. 
+
+**Link to work:** [HTTP Status Codes on codeacademy](https://www.codecademy.com/courses/javascript-beginner-en-EID4t/2/1?curriculum_id=5122e6f8b2cb8a8e97000a01)
+
+
+<br>
 ## Day 21: August 19, Friday
 
 **Today's Progress**: started random quote machine. started intermediate algorithm scripting.
