@@ -19,10 +19,11 @@ $(document).ready(function() {
 	var aboutMe = 'a[href="#aboutMe"]';
 	var resume = 'a[href="#resume"]';
 	var contact = 'a[href="#contact"]';
+	var top = 'a[href="#top"]';
 
 	// position of each section
 	var navHeight = 60;
-	var portfolioTop = $('#portfolio').position().top - navHeight;
+	var portfolioTop = $('#portfolio').position().top - 2*navHeight;
 	var aboutMeTop = $('#aboutMe').position().top - navHeight;
 	var contactTop = $('#contact').position().top - navHeight;
 
