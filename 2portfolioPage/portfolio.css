@@ -1,4 +1,20 @@
+/*TEXT*/
 
+h1, h2 {
+	font-family: "Muli", sans-serif;
+}
+
+.blue {
+	color: #7291d6;
+}
+
+.tinyIcon {
+	font-size: 24px !important;
+	position: relative;
+	top: -3px;
+}
+
+/*END TEXT*/
 /* NAVIGATION */
 
 /*.navbar {
@@ -85,7 +101,6 @@ header div {
 header div h1, header div h2 {
 	position: relative;
 	font-size: 60px;
-	font-family: "Muli";
 	color: white !important;
 	letter-spacing: .075em;
 	opacity: 0;
@@ -103,9 +118,9 @@ header div h2 {
 	display: inline-block;
 	position: relative;
 	text-decoration: none;
-	margin-top: 100px;
+	margin-top: 5%;
 	color: #DCE4F5;
-	padding: 5px 105px;
+	padding: 5px 100px;
 
 	border-style: solid;
 	border-color: #DCE4F5;
@@ -113,6 +128,11 @@ header div h2 {
 	border-radius: 5px;
 
 	letter-spacing: .2em;
+	opacity: 0;
+
+	-webkit-transition-property: color, border-color;
+	-webkit-transition-duration: .3s;
+	-webkit-transition-timing-function: ease-in;
 }
 
 .seeWork-btn:hover {
@@ -124,13 +144,14 @@ header div h2 {
 @media (max-width: 380px){
 	header div h1 {font-size: 38px;}
 	header div h2 {font-size: 18px;}
+	.seeWork-btn, .seeWork-btn:focus {padding: 5px 32px;}
 }
 
 /* END HEADER */
 /* PORTFOLIO */
 
 #portfolio {
-	padding: 20px 4%;
+	padding: 20px 4% 60px 4%;
 }
 
 
@@ -146,20 +167,24 @@ header div h2 {
 /* END PORTFOLIO */
 /* ABOUT ME */
 
-
 .profilePic {
 	border-radius: 3%;
-	width: 100%;
+	width: 96%;
 	margin-top: 20px;
-	padding: 0 2%;
-	padding-bottom: 50px;
+	margin: 10px 2%;
+	margin-bottom: 50px;
 }
 
 #aboutMe {
-	padding: 100px 4% 0px 4%;
+	padding: 200px 4%;
+	background-color: #eee;
+	/*color: #7291d6;*/
+	/*color: #37393D;*/
 }
 
 #aboutMe p {
+	color: #777;
+	letter-spacing: .3px;
 	font-size: 15px;
 	line-height: 2em;
 	padding: .5em 2%;
@@ -168,13 +193,19 @@ header div h2 {
 #aboutMe h2 {
 	margin-left: -1px;
 	padding: 0 2%;
+	letter-spacing: 1.2px;
 }
+
 
 /* END ABOUT ME */
 /* CONTACT ME */
 
 #contact {
-	padding-top: 70px;
+	padding: 70px 0px;
+}
+
+#contact h1 {
+	margin-left: 8%;
 }
 
 .overlabel {
@@ -230,7 +261,7 @@ header div h2 {
 	background-color: transparent; 
 	color: #7291d6;
 	border-style: solid;
-	border-width: 1px;
+	border-width: 2px;
 	border-radius: 3px;
 	border-color: #7291d6;
 	margin-top: 10px;
@@ -244,10 +275,12 @@ header div h2 {
 .btn-primary:hover{
 	background-color: #7291d6; 
 	color: white;
+	/*color: #475B86;
+	background-color: transparent;*/
 	border-style: solid;
-	border-width: 1px;
+	border-width: 2px;
 	border-radius: 3px;
-	border-color: #7291d6;
+	border-color: transparent;
 	margin-top: 10px;
 	margin-left: 8%;
 }
@@ -258,8 +291,6 @@ header div h2 {
 	border-color: transparent;
 	outline: none;
 }
-
-
 
 /* END CONTACT ME */
 /* FOOTER */
@@ -334,7 +365,7 @@ i:hover {
 
 .up-btn i {
   font-size: 1.5em;
-  padding-top: 5px;
+  padding-top: 8px;
   padding-left: 10px;
   color: white;
  

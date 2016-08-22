@@ -3,7 +3,9 @@ $(document).ready(function() {
 	console.log("Javascript Running");
 
 	$('header>div>h1').animate({opacity: 1}, 1000);
-	$('header>div>h2').animate({opacity: 1}, 3000);
+	$('header>div>h2').animate({opacity: 1}, 2800, function(){
+		$('.seeWork-btn').animate({opacity: 1}, 700);
+	});
 
 	// $('header>div>h1').animate({
 	// 	top: "+=40px",
@@ -17,7 +19,6 @@ $(document).ready(function() {
 	// for selecting navigation items
 	var portfolio = 'a[href="#portfolio"]';
 	var aboutMe = 'a[href="#aboutMe"]';
-	var resume = 'a[href="#resume"]';
 	var contact = 'a[href="#contact"]';
 	var top = 'a[href="#top"]';
 
