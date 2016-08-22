@@ -38,6 +38,15 @@ $(document).ready(function() {
 		defineTopPos();
 	})
 
+	function changeUpButton(state) {
+		if (state=='on') {
+			$('.up-btn').fadeIn(300);
+			$('.up-btn').removeClass('invisible');
+		} else {
+			$('.up-btn').fadeOut(300);
+		}
+	}
+
 	//called during scroll. changes navigation bar highlight
 	function changeNavHighlight(section) {
 		$('#myNavBar>ul>li>a.active').removeClass('active');
@@ -52,17 +61,21 @@ $(document).ready(function() {
 		if ($(this).scrollTop() < portfolioTop) {
 			$('nav').fadeOut(200);
 			$('#myNavBar>ul>li>a.active').removeClass('active');
+			changeUpButton('off');
 		//portfolio
 		} else if ($(this).scrollTop() >= portfolioTop && 
 			$(this).scrollTop() < aboutMeTop) {
 			changeNavHighlight(portfolio);
+			changeUpButton('off');
 		//about me
 		} else if ($(this).scrollTop() >= aboutMeTop &&
 			$(this).scrollTop() < contactTop) {
 			changeNavHighlight(aboutMe);
+			changeUpButton('on');
 		// contact
 		} else if ($(this).scrollTop() >= contactTop) {
 			changeNavHighlight(contact);
+			changeUpButton('on');
 		}
 	});
 

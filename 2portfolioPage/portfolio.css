@@ -108,7 +108,7 @@ header div h2 {
 /* PORTFOLIO */
 
 #portfolio {
-	padding: 0 4%;
+	padding: 20px 4%;
 }
 
 
@@ -160,7 +160,7 @@ header div h2 {
 /* CONTACT ME */
 
 #contact {
-	margin-top: 50px;
+	padding-top: 50px;
 }
 
 .overlabel {
@@ -292,7 +292,7 @@ i:hover {
 
 /*END FOOTER*/
 /*BACK TO TOP BUTTON*/
-.back-to-top {
+.up-btn {
 	background: none;
 	margin: 0;
 	position: fixed;
@@ -306,7 +306,7 @@ i:hover {
 }
  
 
-.back-to-top i {
+.up-btn i {
   font-size: 1.5em;
   padding-top: 5px;
   padding-left: 10px;
