@@ -1,6 +1,19 @@
 # 100 Days Of Code - Sam's Log
 
 
+
+<br>
+## Day 24: August 22, Monday
+
+**Today's Progress**: Started uploading images to cloudinary to use on codePen. Uploaded portfolio page to codepen and editing code based on codepen analysis.
+
+**Thoughts:** A few style issues. Learned more about specificity in css. Seems to be frowned upon to use !important and using id's as selectors. Hmm... there's an ongoing discussion on these topics. Personally seems useful and increases code legibility when using id's as selectors. Alas!
+
+**Link to work:** [Portfolio Page on CodePen](http://codepen.io/gaosams/pen/qNGmGv), [Portfolio Page on Github](/portfolioPage)
+
+
+
+
 <br>
 ## Day 23: August 21, Sunday
 
