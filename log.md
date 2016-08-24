@@ -3,6 +3,17 @@
 
 
 <br>
+## Day 25: August 23, Tuesday
+
+**Today's Progress**: More Algorithms. Roman Numeral Converter, Where art Thou, Search and Replace.
+
+**Thoughts:** Got hung up on a roman numeral conversion algorithm thinking that I could make something that would generate the numerals but I ended up making a an array with all the possible roman numerals for: ones, tens, hundreds, thousands digits.
+
+**Link to work:** [Roman Numeral Converter on FCC](https://www.freecodecamp.com/challenges/roman-numeral-converter)
+
+
+
+<br>
 ## Day 24: August 22, Monday
 
 **Today's Progress**: Started uploading images to cloudinary to use on codePen. Uploaded portfolio page to codepen and editing code based on codepen analysis.
