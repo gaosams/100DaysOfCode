@@ -84,6 +84,7 @@ html, body {
 .top {
 	background-color: #7291d6;
 	height: 100%;
+	min-height: 55vw;
 }
 
 header div {
