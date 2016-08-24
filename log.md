@@ -5,7 +5,7 @@
 <br>
 ## Day 25: August 23, Tuesday
 
-**Today's Progress**: More Algorithms. Roman Numeral Converter, Where art Thou, Search and Replace, Pig Latin.
+**Today's Progress**: More Algorithms. Roman Numeral Converter, Where art Thou, Search and Replace, Pig Latin, DNA Pairing.
 
 **Thoughts:** Got hung up on a roman numeral conversion algorithm thinking that I could make something that would generate the numerals but I ended up making a an array with all the possible roman numerals for: ones, tens, hundreds, thousands digits.
 
