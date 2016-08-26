@@ -1,5 +1,22 @@
 # 100 Days Of Code - Sam's Log
 
+<br>
+## Day 27: August 25, Thursday
+
+**Today's Progress**: No Code. Tornado. No Power
+
+**Thoughts:** Day after a handful of tornadoes ripped through town. No fatalities but many houses, trees, and businesses got wrecked. Hopefully the power will be back up tomorrow. 
+
+**Link to work:** [N/A]()
+
+<br>
+## Day 26: August 24, Wednesday
+
+**Today's Progress**: No Code. Tornado. No Power
+
+**Thoughts:** :/
+
+**Link to work:** [N/A]()
 
 
 <br>
