@@ -1,5 +1,16 @@
 # 100 Days Of Code - Sam's Log
 
+
+<br>
+## Day 28: August 26, Friday
+
+**Today's Progress**: Back to coding! ajax struggles
+
+**Thoughts:** Spent the day being incredibly frustrated at ajax and the random quote machine project. Most of the frustration came with not knowing how to debug. After a few hours of reading documentation and trying to understand what to do, I found a video that showed me how to check if the GET request was even getting through. Good stuff. Still trying to understand the difference between .getJSON and .ajax. Also wrote up a little bit of css for the random quote machine. 
+
+**Link to work:** [Helpful Ajax video](https://www.youtube.com/watch?v=fEYx8dQr_cQ), [randomQuoteMachine](/randomQuoteMachine)
+
+
 <br>
 ## Day 27: August 25, Thursday
 
