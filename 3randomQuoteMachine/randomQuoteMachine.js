@@ -1,44 +1,121 @@
-$(document).ready(function() {
 
+$(document).ready(function() {
 	console.log("javascript started");
 
+	$.ajax({
+		type: "GET",
+        url: 'http://api.adviceslip.com/advice',
+        dataType: 'json',
+        crossDomain: true,
+        success: function(data) {
+        	$('#quote').html(data.slip.advice);
+        },
+        error: function (xhr, ajaxOptions, thrownError) {
+		    alert(xhr.status);
+		    alert(thrownError);
+		}
+    });
 
-
-	var script = $("<script />", {
-	    src: "http://run.plnkr.co/plunks/v8xyYN64V4nqCshgjKms/data-1.json",
-	    type: "application/json"
-	  }
-	);
-
-	$("head").append(script);
-
-
-
-	$("#newQuote").click(function() {
-		$("#newQuote").html("herp derp derp"); //change text of button when clicking
-		$.ajax({
-			url: "http://catfacts-api.appspot.com/api/facts",
-			dataType: "jsonp",
-			complete: function() { 
-				$('#newQuote').html("Give Me a New Quote!"); //change text of button when clicking
-			}, 
-			error: {
-			},
-			success: {
-			},
-			jsonCallback: "catFeeds"
-		})
-	})
-
-	function catFeeds(number){
-		console.log(number);
-		//console.log('bloop');
-		// $("#quote").html("herp derp derp");
-		// $.each(number, function(i, number) {
-	 //        $("#quote").html(number);
-	 //     })
-	}
 });
+
+function changeQuote(data) {
+	console.log(data);
+	$('#quote').html(data.facts);
+}
+
+
+// THIS ONE WORKS! :D
+// $.ajax({
+// 	type: "GET",
+//     url: 'http://api.icndb.com/jokes/random',
+//     dataType: 'json',
+//     crossDomain: true,
+//     success: function(data) {
+//     	alert(data.value.joke);
+//     	$('#quote').html(data.value.joke);
+//     },
+//     error: function (xhr, ajaxOptions, thrownError) {
+// 	    alert(xhr.status);
+// 	    alert(thrownError);
+// 	}
+// });
+
+
+
+// THIS ONE WORKS! :D
+// $.get('http://api.icndb.com/jokes/random', function(data){
+// 		alert("ID: " + data.value.id + "\nJoke: " + data.value.joke);
+// 	})
+
+
+
+// $.ajax({
+	// 	type: "GET",
+ //        url: 'http://api.icndb.com/jokes/random',
+ //        dataType: 'jsonp',
+ //        jsonp: 'callback',
+ //        jsonCallback: 'getQuote';
+ //        // success: function(data) {
+ //        // 	console.log(data);
+ //        // 	$('#quote').html(data.facts);
+ //        // },
+ //        error: function (xhr, ajaxOptions, thrownError) {
+	// 	    alert(xhr.status);
+	// 	    alert(thrownError);
+	// 	}
+ //    });
+
+
+
+
+
+	// $("#newQuote").click( function() {
+	// 	$(this).html('loading');
+	// 	$(this).prop('disabled','disabled');
+	// 	$.ajax({
+	// 		url: "https://api.github.com/users/jeresig",
+	//   		dataType: "jsonp",
+	//   		jsonpCallback: "doStuff",
+	// 		complete: function() {
+	// 			$("#newQuote").html("Give Me a New Quote!");
+	// 			$("#newQuote").removeProp('disabled');
+	// 		}
+	// 	})
+	// })
+
+
+	// function doStuff(json){
+	//   console.log(json);
+	// }
+
+// });
+
+
+// 	$("#newQuote").click(function() {
+// 		$("#newQuote").html("herp derp derp"); //change text of button when clicking
+// 		$.ajax({
+// 			url: "http://catfacts-api.appspot.com/api/facts",
+// 			dataType: "jsonp",
+// 			complete: function() { 
+// 				$('#newQuote').html("Give Me a New Quote!"); //change text of button when clicking
+// 			}, 
+// 			error: {
+// 			},
+// 			success: {
+// 			},
+// 			jsonpCallback: "catFeeds"
+// 		})
+// 	})
+
+// 	function catFeeds(number){
+// 		console.log(number);
+// 		//console.log('bloop');
+// 		// $("#quote").html("herp derp derp");
+// 		// $.each(number, function(i, number) {
+// 	 //        $("#quote").html(number);
+// 	 //     })
+// 	}
+// });
 	// $.ajax({
 	// 	url: "http://www.goodreads.com/quotes/tag/happiness"+Math.random(),
 	// 	dataType: "jsonp",
