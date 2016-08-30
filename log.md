@@ -1,5 +1,39 @@
 # 100 Days Of Code - Sam's Log
 
+<br>
+## Day 30: August 29, Monday
+
+**Today's Progress**: More ajax and random quote machine.
+
+**Thoughts:**  Struggling lots with ajax and how to work with different API's. It's incredibly frustrating working with this stuff. Most helpful resource for understanding how to get and use data from other sources around the web has been youtube videos. These small details are so incredibly helpful in working with data... like how to open the Chrome DevTools Console panel and find a website's api or check to see if an api you are trying to use is being read by the browser.
+
+**Link to work:** [randomQuoteMachine](/randomQuoteMachine), [webscraping for APIs](http://www.gregreda.com/2015/02/15/web-scraping-finding-the-api/)
+
+
+
+<br>
+## Day 30: August 28, Sunday
+
+**Today's Progress**: No coding
+
+**Thoughts:** Travelling back from blues dance workshop. Spending time thinking about my next steps in life. :/ 
+
+**Link to work:** N/A
+
+
+
+
+<br>
+## Day 29: August 27, Saturday
+
+**Today's Progress**: No coding
+
+**Thoughts:** Travelling to blues dance workshop. Spending time thinking about my next steps in life. :/ 
+
+**Link to work:** N/A
+
+
+
 
 <br>
 ## Day 28: August 26, Friday
