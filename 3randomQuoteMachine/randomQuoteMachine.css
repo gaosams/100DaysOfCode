@@ -4,13 +4,14 @@
 	max-width: 600px;
 }
 
-
-body, .btn, .btn-primary, .btn:focus, .btn-primary:focus, .social {
+body, .btn, .btn-primary, .btn:focus, .btn-primary:focus, .social,
+.button .newQuoteButton:active, .button .newQuoteButton:active {
 	color: rgba(200,155,200,.9);
 	background-color: rgba(200,155,200,.9);
 }
 
-.btn, .btn-primary, .btn-primary:focus, .btn:focus{
+.btn, .btn-primary, .btn-primary:focus, .btn:focus,
+.button .newQuoteButton:active, .button .newQuoteButton:active{
 	border-width: 0;
 	color: white;
 	padding: 10px 20px;
