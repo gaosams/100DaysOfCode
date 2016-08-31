@@ -112,10 +112,12 @@ $(document).ready(function() {
 
 	    //when typing
 	    $(this).on('input', function (){
-			if ($.trim(field.val()) == '') {
+			if ($.trim(field.val()) == '') { 
 	    		$(span).removeClass("infoEntered");
-	    	} else {
-	    		$(span).addClass("infoEntered");
+	    		console.log("remove stuff");
+	    	} else { 
+	    		$(span).addClass("infoEntered"); 
+	    		console.log("add stuff");
 	    	}
 	    });
 	});

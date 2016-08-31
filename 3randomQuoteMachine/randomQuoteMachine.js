@@ -2,9 +2,10 @@
 $(document).ready(function() {
 	console.log("javascript started");
 
+
 	$.ajax({
 		type: "GET",
-        url: 'http://api.adviceslip.com/advice',
+        url: 'http://forismatic.com/en',
         dataType: 'json',
         crossDomain: true,
         success: function(data) {
@@ -13,8 +14,10 @@ $(document).ready(function() {
         error: function (xhr, ajaxOptions, thrownError) {
 		    alert(xhr.status);
 		    alert(thrownError);
-		}
+		},
+		cache: false
     });
+    
 
 });
 
@@ -23,6 +26,7 @@ function changeQuote(data) {
 	$('#quote').html(data.facts);
 }
 
+//http://api.adviceslip.com/advice
 
 // THIS ONE WORKS! :D
 // $.ajax({
