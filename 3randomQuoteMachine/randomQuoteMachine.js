@@ -1,30 +1,62 @@
 
+var nextHue = Math.floor(Math.random() * 360);
+
+function getQuote() {
+	var quote = "";
+	var author = "";
+	$.ajax({
+		headers: {
+	      "X-Mashape-Key": "rhHgPpfD9GmshwaZChM85hE4dtC6p1nUuGvjsnFOCxB0VIheu8",
+	      Accept: "application/json",
+	      "Content-Type": "application/x-www-form-urlencoded"
+	    },
+
+		  type: 'GET',
+	      url: 'https://andruxnet-random-famous-quotes.p.mashape.com/',
+	      dataType: 'json',
+
+	      success: function(data) {
+	      	quote = data.quote;
+	      	author = data.author;
+
+			$("#quote").animate({
+				opacity: 0
+			}, 500,
+			function() {
+				$(this).animate({
+					opacity: 1
+				}, 500);
+				$("#quote").html(quote);
+			});
+
+
+			$("#author").animate({
+				opacity: 0
+			}, 500,
+			function() {
+				$(this).animate({
+					opacity: 1
+				}, 500);
+				$("#author").html(author);
+			});
+	      },
+	      error: function (xhr, ajaxOptions, thrownError) {
+		    alert(xhr.status);
+		    alert(thrownError);
+		  },
+	      cache: false
+	});
+}
+
+getQuote();
+
 $(document).ready(function() {
 	console.log("javascript started");
 
-
-	$.ajax({
-		type: "GET",
-        url: 'http://forismatic.com/en',
-        dataType: 'json',
-        crossDomain: true,
-        success: function(data) {
-        	$('#quote').html(data.slip.advice);
-        },
-        error: function (xhr, ajaxOptions, thrownError) {
-		    alert(xhr.status);
-		    alert(thrownError);
-		},
-		cache: false
-    });
-    
-
+	$("#newQuote").on("click", getQuote);
 });
 
-function changeQuote(data) {
-	console.log(data);
-	$('#quote').html(data.facts);
-}
+
 
 //http://api.adviceslip.com/advice
 
