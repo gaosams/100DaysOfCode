@@ -1,5 +1,36 @@
 # 100 Days Of Code - Sam's Log
 
+
+<br>
+## Day 33: September 1, Thursday
+
+**Today's Progress**: learned how to use api's on mashape. linked button click to generating new quote
+
+**Thoughts:**  spent a decent amount of time googling how to do things but honestly caved and started looking at other people's code to see how they approached api's. I didn't understand a lot the ways people were connecting with data :/ Lots of obscure code i'd never seen. Saw a few examples of people using mashape which i'd looked into but couldnt get to work a couple days ago. I was missing the header code. Once I got an api working, the rest seems fun... Though connecting to social media might be the next hurdle D:
+
+**Link to work:** [randomQuoteMachine](/randomQuoteMachine)
+
+
+<br>
+## Day 32: August 31, Wednesday
+
+**Today's Progress**: Github personal page. Fix portfolio page.
+
+**Thoughts:**  The headings for each input field in the contact section wasn't appearing when typing. Changed the position to relative instead of absolute. Solved the issue! Pretty excited about being able to find issues in code and fixing them. I'll need to remind myself to always check the whole page after making major adjustments to be sure everything is still functioning. I set up a github personal page with jekyll. It's pretty exciting! I've set a goal to finish making a page template by Sunday. Also learned about Markdown! (the notation that github uses! super useful shorthand)
+
+**Link to work:** [Portfolio Page on CodePen](http://codepen.io/gaosams/pen/qNGmGv)
+
+
+<br>
+## Day 31: August 30, Tuesday
+
+**Today's Progress**: N/a
+
+**Thoughts:**  Chatted with a company today and feeling ridiculously nervous :'( I'm so sad that I have not kept up with coding. It dawned on me that job fair season is creepin' up hard. I'm going to push to get the quote machine done but also a full functional portfolio site hosted on github based off of my portfolio page on codepen. 
+
+**Link to work:** [Portfolio Page on CodePen](http://codepen.io/gaosams/pen/qNGmGv)
+
+
 <br>
 ## Day 30: August 29, Monday
 
