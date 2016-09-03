@@ -1,5 +1,15 @@
 # 100 Days Of Code - Sam's Log
 
+<br>
+## Day 34: September 2, Friday
+
+**Today's Progress**: generate random color to fade into when making new quote in random quote machine.
+
+**Thoughts:** Cleaned up some code. I may have developed some bad habits with making classes. I usually go back to consolidate classes which is pretty time consuming and stressful when things dont quite work sometimes. Using bootstrap css styling is difficult to override sometimes so it seems easier to make my own styles. Styling in general is a little easier :) 
+
+**Link to work:** [randomQuoteMachine](/randomQuoteMachine)
+
+
 
 <br>
 ## Day 33: September 1, Thursday
