@@ -10,8 +10,8 @@ body {
 	opacity: .7;
 }
 
-
 /*BUTTONS*/
+
 .buttonStyle, .buttonStyle:focus, .buttonStyle:active{
 	color: white;
 	background-color: rgb(200,155,200);
@@ -41,13 +41,8 @@ body {
 
 .social-media, .newQuote {
 	margin: 0 2%;
-	opacity: 0;
+	/*opacity: 0;*/
 }
-
-/*use if adding other social media buttons*/
-/*.social {
-	margin: 0 5px;
-}*/ 
 
 .twitter {
 	padding: 12px 20px;
@@ -61,13 +56,14 @@ body {
 /*TEXT*/
 
 .quote {
-	opacity: 0;
-	font-size: 2em;
+	/*opacity: 0;*/
+	font-size: 1.7em;
+	margin: 0 20px;
 }
 
 .author {
-	opacity: 0;
-	margin-top: 100px;
+	/*opacity: 0;*/
+	margin-top: 50px;
 	color: white;
 	text-align: left;
 	font-size: 1em;

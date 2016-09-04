@@ -75,10 +75,8 @@ function getQuote() {
 }
 
 
-
 $(document).ready(function() {
 	console.log("javascript started");
-	getQuote();
 	$("#newQuote").on("click", getQuote);
 });
 
