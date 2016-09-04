@@ -10,8 +10,8 @@ body {
 	opacity: .7;
 }
 
-
 /*BUTTONS*/
+
 .buttonStyle, .buttonStyle:focus, .buttonStyle:active{
 	color: white;
 	background-color: rgb(200,155,200);
@@ -39,22 +39,13 @@ body {
 	text-align: center;
 }
 
-.social-media {
-	margin: 0 10%;
-	opacity: 0;
+.social-media, .newQuote {
+	margin: 0 2%;
+	/*opacity: 0;*/
 }
 
-.social {
-	margin: 0 5px;
-	padding: 10px;
-	width: 40px;
-	height: 40px;
-}
-
-
-.newQuote {
-	margin: 0 10%;
-	opacity: 0;
+.twitter {
+	padding: 12px 20px;
 }
 
 .newQuoteButton {
@@ -65,13 +56,14 @@ body {
 /*TEXT*/
 
 .quote {
-	opacity: 0;
-	font-size: 2em;
+	/*opacity: 0;*/
+	font-size: 1.7em;
+	margin: 0 20px;
 }
 
 .author {
-	opacity: 0;
-	margin-top: 100px;
+	/*opacity: 0;*/
+	margin-top: 50px;
 	color: white;
 	text-align: left;
 	font-size: 1em;

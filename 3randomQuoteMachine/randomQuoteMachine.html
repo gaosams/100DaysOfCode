@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title> Quote Machine </title>
+		<title> Random Quote Machine </title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- CSS: Bootstrap-->
@@ -28,26 +28,23 @@
 	</head>
 
 	<body>
-		<div id="author" class="container author"></div>
+		<div id="author" class="container author">Ralf Speth</div>
 		<div class="container text-center well">
-			<div id="quote" class="quote">""</div>
+			<div id="quote" class="quote">“If you think good design is expensive, you should look at the cost of bad design.”</div>
 			<div class="row buttonRow">
 				<div class="buttonGroup social-media">
 
-					<button href="#" class="buttonStyle social" type="button">
+					<a id="twitter" class="buttonStyle social twitter" href='http://twitter.com/home/?status=quote of some sort. - author of another sort' target='_blank'>
 						<i class="fa fa-twitter"></i>
-					</button>
-					<button href="#" class="buttonStyle social">
-						<i class="fa fa-tumblr"></i>
-					</button>
+					</a>
+
 				</div>
 				<div class="buttonGroup newQuote"> 
 					<button id="newQuote" class="buttonStyle newQuoteButton" type="button">
 						Give Me a New Quote!
 					</button>
 				</div>
-
-		</div>
+			</div>
 		</div>
 
 		<footer class="text-center">by <a href="http://gaosams.com" target="_blank">Sam Gao</a></footer>

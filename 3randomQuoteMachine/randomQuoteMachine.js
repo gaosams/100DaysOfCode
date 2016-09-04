@@ -26,6 +26,12 @@ function animateColor(hex) {
 }
 
 
+function updateSocialMedia(quote, author) {
+	var twitter = "http://twitter.com/home/?status=";
+	$("#twitter").attr('href', twitter + '"'+ quote + '" -'+ author);
+}
+
+
 
 function getQuote() {
 	var quote = "";
@@ -56,6 +62,7 @@ function getQuote() {
 				$("#quote").html(quote);
 				$("#author").html(author);
 				animateColor(color);
+				updateSocialMedia(quote, author);
 			});
 
 	      },
@@ -68,10 +75,8 @@ function getQuote() {
 }
 
 
-
 $(document).ready(function() {
 	console.log("javascript started");
-	getQuote();
 	$("#newQuote").on("click", getQuote);
 });
 
