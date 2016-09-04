@@ -1,5 +1,18 @@
 # 100 Days Of Code - Sam's Log
 
+
+
+<br>
+## Day 35: September 3, Saturday
+
+**Today's Progress**: finish quote machine. made twitter button functional and fixed start load. 
+
+**Thoughts:** I've been keeping a calendar with randomly assigned due dates for projects. I'm quite proud of myself for finishing this project on time though I hope to go back and personalize it... maybe add a loading animation. (Woohoo!) I'll be preparing for interview and fall job fair season by creating a page template for projects on my portfolio site. Looking back at the quote machine project, the biggest hurdles came with API's themselves not working out. I am still not happy with the amount I understand about ajax and get requests. I feel like many of the APIs I tried should have worked but maybe my code was missing something...hmm... Hopefully I can sort out more questions and have more practice with this material in the next few projects. 
+
+**Link to work:** [randomQuoteMachine](/randomQuoteMachine), [randomQuoteMachine on CodePen](http://codepen.io/gaosams/full/zKxYJE/)
+
+
+
 <br>
 ## Day 34: September 2, Friday
 
