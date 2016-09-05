@@ -1,6 +1,16 @@
 # 100 Days Of Code - Sam's Log
 
 
+<br>
+## Day 36: September 4, Sunday
+
+**Today's Progress**: N/A
+
+**Thoughts:** prepping for a job interview D: it is stressful... 
+
+**Link to work:** N/A
+
+
 
 <br>
 ## Day 35: September 3, Saturday
