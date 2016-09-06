@@ -1,5 +1,69 @@
 # 100 Days Of Code - Sam's Log
 
+
+<br>
+## Day 36-38: September 4-6, Sunday-Tuesday
+
+**Today's Progress**: N/A
+
+**Thoughts:** prepping for a job interview D: it is stressful... 
+
+**Link to work:** N/A
+
+
+
+<br>
+## Day 35: September 3, Saturday
+
+**Today's Progress**: finish quote machine. made twitter button functional and fixed start load. 
+
+**Thoughts:** I've been keeping a calendar with randomly assigned due dates for projects. I'm quite proud of myself for finishing this project on time though I hope to go back and personalize it... maybe add a loading animation. (Woohoo!) I'll be preparing for interview and fall job fair season by creating a page template for projects on my portfolio site. Looking back at the quote machine project, the biggest hurdles came with API's themselves not working out. I am still not happy with the amount I understand about ajax and get requests. I feel like many of the APIs I tried should have worked but maybe my code was missing something...hmm... Hopefully I can sort out more questions and have more practice with this material in the next few projects. 
+
+**Link to work:** [randomQuoteMachine](/randomQuoteMachine), [randomQuoteMachine on CodePen](http://codepen.io/gaosams/full/zKxYJE/)
+
+
+
+<br>
+## Day 34: September 2, Friday
+
+**Today's Progress**: generate random color to fade into when making new quote in random quote machine.
+
+**Thoughts:** Cleaned up some code. I may have developed some bad habits with making classes. I usually go back to consolidate classes which is pretty time consuming and stressful when things dont quite work sometimes. Using bootstrap css styling is difficult to override sometimes so it seems easier to make my own styles. Styling in general is a little easier :) 
+
+**Link to work:** [randomQuoteMachine](/randomQuoteMachine)
+
+
+
+<br>
+## Day 33: September 1, Thursday
+
+**Today's Progress**: learned how to use api's on mashape. linked button click to generating new quote
+
+**Thoughts:**  spent a decent amount of time googling how to do things but honestly caved and started looking at other people's code to see how they approached api's. I didn't understand a lot the ways people were connecting with data :/ Lots of obscure code i'd never seen. Saw a few examples of people using mashape which i'd looked into but couldnt get to work a couple days ago. I was missing the header code. Once I got an api working, the rest seems fun... Though connecting to social media might be the next hurdle D:
+
+**Link to work:** [randomQuoteMachine](/randomQuoteMachine)
+
+
+<br>
+## Day 32: August 31, Wednesday
+
+**Today's Progress**: Github personal page. Fix portfolio page.
+
+**Thoughts:**  The headings for each input field in the contact section wasn't appearing when typing. Changed the position to relative instead of absolute. Solved the issue! Pretty excited about being able to find issues in code and fixing them. I'll need to remind myself to always check the whole page after making major adjustments to be sure everything is still functioning. I set up a github personal page with jekyll. It's pretty exciting! I've set a goal to finish making a page template by Sunday. Also learned about Markdown! (the notation that github uses! super useful shorthand)
+
+**Link to work:** [Portfolio Page on CodePen](http://codepen.io/gaosams/pen/qNGmGv)
+
+
+<br>
+## Day 31: August 30, Tuesday
+
+**Today's Progress**: N/a
+
+**Thoughts:**  Chatted with a company today and feeling ridiculously nervous :'( I'm so sad that I have not kept up with coding. It dawned on me that job fair season is creepin' up hard. I'm going to push to get the quote machine done but also a full functional portfolio site hosted on github based off of my portfolio page on codepen. 
+
+**Link to work:** [Portfolio Page on CodePen](http://codepen.io/gaosams/pen/qNGmGv)
+
+
 <br>
 ## Day 30: August 29, Monday
 
