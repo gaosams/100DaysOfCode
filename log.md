@@ -2,7 +2,7 @@
 
 
 <br>
-## Day 36: September 4, Sunday
+## Day 36-38: September 4-6, Sunday-Tuesday
 
 **Today's Progress**: N/A
 
