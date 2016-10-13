@@ -8,7 +8,10 @@
 
 **Thoughts:** I've been travelling and interviewing for jobs for the past month and finally willed myself to get back to coding! It is definitely great to be back! After a few hours of coding, I'm energized knowing that I love working on projects so much more than trying to sell myself to future employers. I got a default layout working and slideshows working! I'm quite excited to get the rest of my work up eventually. Right now my implementation of slideshows is pretty janky so I'd like to find a cleaner way to do it later.
 
-**Link to work:** [GitHub Pages Website](gaosams.github.io)
+**Link to work:** [GitHub Pages Website](gaosams.github.io), 
+[Jekyll Slideshow Resource 1](http://jekyll.tips/jekyll-casts/photo-gallery/),
+[Jekyll Slideshow Resource 2](http://www.jekyll-plugins.com/plugins/jekyll-slideshow),
+[Jekyll Slideshow Resource 3](http://davidollerhead.com/blog/2013/08/06/lets-build-a-carousel.html)
 
 
 
