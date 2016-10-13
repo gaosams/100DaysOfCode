@@ -2,13 +2,37 @@
 
 
 <br>
-## Day 36-38: September 4-6, Sunday-Tuesday
+## Day 38: October 12, Wednesday
 
-**Today's Progress**: N/A
+**Today's Progress**: Working with Jekyll in Github Pages. Make project page template and slideshows with jekyll
 
-**Thoughts:** prepping for a job interview D: it is stressful... 
+**Thoughts:** I've been travelling and interviewing for jobs for the past month and finally willed myself to get back to coding! It is definitely great to be back! After a few hours of coding, I'm energized knowing that I love working on projects so much more than trying to sell myself to future employers. I got a default layout working and slideshows working! I'm quite excited to get the rest of my work up eventually. Right now my implementation of slideshows is pretty janky so I'd like to find a cleaner way to do it later.
 
-**Link to work:** N/A
+**Link to work:** [GitHub Pages Website](gaosams.github.io)
+
+
+
+<br>
+## Day 37: September 16, Friday
+
+**Today's Progress**: Work on Github Pages portfolio. Finish Virtual Agents Project Page. 
+
+**Thoughts:** forgot to log today... About to drive to Pittsburgh for Interviews and Job Fairs. 
+(Filling in this entry on oct 13)
+
+**Link to work:** [GitHub Pages Website](gaosams.github.io)
+
+
+
+<br>
+## Day 36: September 15, Thursday
+
+**Today's Progress**: Work on Github Pages portfolio
+
+**Thoughts:** forgot to log today... Just returned from travels in Santa Barbara and San Francisco Bay Area. 
+(Filling in this entry on oct 13)
+
+**Link to work:** [GitHub Pages Website](gaosams.github.io)
 
 
 
@@ -51,7 +75,7 @@
 
 **Thoughts:**  The headings for each input field in the contact section wasn't appearing when typing. Changed the position to relative instead of absolute. Solved the issue! Pretty excited about being able to find issues in code and fixing them. I'll need to remind myself to always check the whole page after making major adjustments to be sure everything is still functioning. I set up a github personal page with jekyll. It's pretty exciting! I've set a goal to finish making a page template by Sunday. Also learned about Markdown! (the notation that github uses! super useful shorthand)
 
-**Link to work:** [Portfolio Page on CodePen](http://codepen.io/gaosams/pen/qNGmGv)
+**Link to work:** [Portfolio Page on CodePen](http://codepen.io/gaosams/pen/qNGmGv), [GitHub Pages Website](gaosams.github.io)
 
 
 <br>
