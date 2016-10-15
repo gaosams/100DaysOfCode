@@ -2,6 +2,17 @@
 
 
 <br>
+## Day 39: October 14, Friday
+
+**Today's Progress**: Add doodle to portfolio's home page
+
+**Thoughts:** Realized partway through that it would be easier to make mockups in sketch first before adding the doodle to see how it would behave responsively. Now working on mockups to see placement of doodle and how it will scale. 
+
+**Link to work:** [GitHub Pages Website](gaosams.github.io)
+
+
+
+<br>
 ## Day 38: October 12, Wednesday
 
 **Today's Progress**: Working with Jekyll in Github Pages. Make project page template and slideshows with jekyll
